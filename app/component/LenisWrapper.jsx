@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import Lenis from "lenis"; // Assuming the correct import path
+import Lenis from "lenis";
 
 const LenisWrapper = ({ children }) => {
   useEffect(() => {

@@ -1,5 +1,5 @@
 import About from "./component/About";
-import BackgroundBlobs from "./component/Background";
+
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
@@ -16,7 +16,6 @@ export default function Page() {
       <About />
       <Contact />
       <Footer />
-      <BackgroundBlobs />
     </LenisWrapper>
   );
 }

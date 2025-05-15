@@ -46,7 +46,7 @@ export default function Home() {
       id="home"
       className="h-screen   flex flex-col items-center justify-center"
     >
-      <h1 className="p-2 font-medium text-4xl" ref={headingRef}>
+      <h1 className="p-2 font-bold text-4xl" ref={headingRef}>
         Hello!, I'm Vedant
       </h1>
       <h2 className="font-medium mt-2 text-zinc-300" ref={subRef}>
