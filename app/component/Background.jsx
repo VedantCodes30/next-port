@@ -28,7 +28,7 @@ export default function BackgroundBlobs() {
   }, []);
 
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden blur-3xl">
+    <div className="fixed inset-0 -z-10 overflow-hidden  blur-3xl">
       <div
         ref={blob1}
         className="absolute top-[-10%] left-[10%] w-[250px] h-[250px] bg-pink-500 rounded-full 
